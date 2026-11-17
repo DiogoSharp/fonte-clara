@@ -1,0 +1,12 @@
+{
+  "name": "fonte-clara",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fonte Clara: confere as citações de uma peça jurídica na fonte oficial.",
+  "scripts": {
+    "test": "node --test testes/*.test.mjs",
+    "local": "node testes/servidor-local.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

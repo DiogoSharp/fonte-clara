@@ -1,0 +1,8 @@
+# Fonte Clara no Netlify.
+# "site" é o que o público vê. As funções em netlify/functions rodam no servidor
+# e guardam a chave do Groq (variável GROQ_API_KEY, definida no painel do Netlify).
+[build]
+  publish = "site"
+
+[functions]
+  node_bundler = "esbuild"
